@@ -12,7 +12,7 @@ string greeting(string name);
 string farewell(string name);
 
 int main() {
-    cout << "Hello, World!";
+    cout << "Hello, World!" << endl;
 
     cout << "What is your name?" << endl;
 
@@ -22,23 +22,23 @@ int main() {
 
     cout << greeting(name) << endl;
 
-    cout << "Enter a number: " << endl;
+    cout << "Enter a number: ";
 
     int num;
 
     cin >> num;
 
-    cout << "Double of " << num << " is " << doubleNum(num) << endl;
+    cout << endl << "Double of " << num << " is " << doubleNum(num) << endl;
 
-    cout << "Triple of " << num << " is " << tripleNum(num) << endl;
+    cout << "Triple of " << num << " is " << tripleNum(num) << endl << endl;
 
-    cout << "Enter another number: " << endl;
+    cout << "Enter another number: ";
 
     int num2;
 
     cin >> num2;
 
-    cout << "The sum of " << num << " and " << num2 << " is " << sumNum(num, num2) << endl;
+    cout << endl << "The sum of " << num << " and " << num2 << " is " << sumNum(num, num2) << endl << endl;
 
     cout << farewell(name) << endl;
 
